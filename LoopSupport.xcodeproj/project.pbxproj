@@ -38,8 +38,7 @@
 		A9CE7DA025BC9C0200C04F9B /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE7D9F25BC9C0200C04F9B /* OSLog.swift */; };
 		A9CE7DA125BC9C0200C04F9B /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE7D9F25BC9C0200C04F9B /* OSLog.swift */; };
 		A9CE7DA225BC9C0200C04F9B /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE7D9F25BC9C0200C04F9B /* OSLog.swift */; };
-		A9CE7FFB25BCAC6D00C04F9B /* LoopSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE7FFA25BCAC6D00C04F9B /* LoopSupport.swift */; };
-		A9CE800325BCAC8700C04F9B /* LoopSupport+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE800225BCAC8700C04F9B /* LoopSupport+UI.swift */; };
+		A9CE800325BCAC8700C04F9B /* LoopSupportUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE800225BCAC8700C04F9B /* LoopSupportUI.swift */; };
 		A9CE800B25BCACAE00C04F9B /* LoopSupportPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE800A25BCACAE00C04F9B /* LoopSupportPlugin.swift */; };
 		A9CE801325BCAE4000C04F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CE801225BCAE4000C04F9B /* Assets.xcassets */; };
 		A9CE803625BCAFAB00C04F9B /* LoopSupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A936A93625BC9A0B0085119C /* LoopSupportKit.framework */; };
@@ -105,8 +104,7 @@
 		A9B3CE0225BCB7A1002D9E92 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CE7D7D25BC9B3300C04F9B /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 		A9CE7D9F25BC9C0200C04F9B /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
-		A9CE7FFA25BCAC6D00C04F9B /* LoopSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopSupport.swift; sourceTree = "<group>"; };
-		A9CE800225BCAC8700C04F9B /* LoopSupport+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoopSupport+UI.swift"; sourceTree = "<group>"; };
+		A9CE800225BCAC8700C04F9B /* LoopSupportUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopSupportUI.swift; sourceTree = "<group>"; };
 		A9CE800A25BCACAE00C04F9B /* LoopSupportPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopSupportPlugin.swift; sourceTree = "<group>"; };
 		A9CE801225BCAE4000C04F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,7 +189,6 @@
 			children = (
 				A936A93825BC9A0B0085119C /* LoopSupportKit.h */,
 				A936A93925BC9A0B0085119C /* Info.plist */,
-				A9CE7FFA25BCAC6D00C04F9B /* LoopSupport.swift */,
 			);
 			path = LoopSupportKit;
 			sourceTree = "<group>";
@@ -209,7 +206,7 @@
 			children = (
 				A936A95625BC9A190085119C /* LoopSupportKitUI.h */,
 				A936A95725BC9A190085119C /* Info.plist */,
-				A9CE800225BCAC8700C04F9B /* LoopSupport+UI.swift */,
+				A9CE800225BCAC8700C04F9B /* LoopSupportUI.swift */,
 				A9CE801225BCAE4000C04F9B /* Assets.xcassets */,
 			);
 			path = LoopSupportKitUI;
@@ -578,7 +575,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9CE7DA025BC9C0200C04F9B /* OSLog.swift in Sources */,
-				A9CE7FFB25BCAC6D00C04F9B /* LoopSupport.swift in Sources */,
 				A9CE7D7E25BC9B3300C04F9B /* LocalizedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,7 +592,7 @@
 			files = (
 				A9CE7DA125BC9C0200C04F9B /* OSLog.swift in Sources */,
 				A9CE7D8425BC9B3700C04F9B /* LocalizedString.swift in Sources */,
-				A9CE800325BCAC8700C04F9B /* LoopSupport+UI.swift in Sources */,
+				A9CE800325BCAC8700C04F9B /* LoopSupportUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

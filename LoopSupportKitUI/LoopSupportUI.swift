@@ -1,5 +1,5 @@
 //
-//  LoopSupport+UI.swift
+//  LoopSupportUI.swift
 //  LoopSupportKitUI
 //
 //  Created by Darin Krauss on 1/23/21.
@@ -11,7 +11,11 @@ import SwiftUI
 import LoopKitUI
 import LoopSupportKit
 
-extension LoopSupport: SupportUI {
+public final class LoopSupportUI: SupportUI {
+    public let supportIdentifier = "LoopSupport"
+
+    public init() {}
+
     public func supportMenuItem(supportInfoProvider: SupportInfoProvider, urlHandler: @escaping (URL) -> Void) -> AnyView? {
         return AnyView(Button("Submit Bug Report", action: {
             let url = URL(string: "https://github.com/LoopKit/Loop/issues")!

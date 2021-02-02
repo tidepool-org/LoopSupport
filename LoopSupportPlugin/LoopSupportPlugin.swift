@@ -14,7 +14,7 @@ import LoopSupportKitUI
 class LoopSupportPlugin: NSObject, SupportUIExtension {
     private let log = OSLog(category: "LoopSupportPlugin")
 
-    public let support: SupportUI = LoopSupport()
+    public let support: SupportUI = LoopSupportUI()
 
     override init() {
         super.init()
