@@ -11,7 +11,7 @@ import LoopKitUI
 import LoopSupportKit
 import LoopSupportKitUI
 
-class LoopSupportPlugin: NSObject, SupportUIExtension {
+class LoopSupportPlugin: NSObject, SupportUIPlugin {
     private let log = OSLog(category: "LoopSupportPlugin")
 
     public let support: SupportUI = LoopSupportUI()
