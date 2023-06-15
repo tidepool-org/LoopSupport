@@ -16,6 +16,9 @@ public final class LoopSupportUI: SupportUI {
     public static var supportIdentifier: String = "LoopSupportUI"
 
     private var analytics = LoopKitAnalytics.shared
+    
+    public let onlyAllowSimulatorDevices: Bool = false
+    public let showsDeleteTestDataUI: Bool = true
 
     public func checkVersion(bundleIdentifier: String, currentVersion: String) async -> LoopKit.VersionUpdate? {
         return nil
